@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Links from './component/link';
 
 function App() {
   return (
@@ -20,11 +21,18 @@ function App() {
       </header> */}
 
       <h2>LOGOBAKERY</h2>
-      <div  className="dis">
+      {/* <div  className="dis">
       <a href="">Services</a>
       <a href="">Projects</a>
       <a href="">About</a>
-      </div>
+      </div> */}
+
+        <div className='dis'>
+        <Links/>
+        </div>
+
+      
+
       <button className="button">Contact</button>
 
 

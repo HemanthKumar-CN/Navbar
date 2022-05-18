@@ -16,11 +16,16 @@
   
 }
 
+.test
+{
+  padding: 0 5rem;
+}
+
 
 .dis a
 {
   text-decoration: none;
-  padding: 12%;
+  padding: 0 1rem;
 }
 
 .button
