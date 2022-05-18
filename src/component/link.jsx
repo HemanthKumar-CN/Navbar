@@ -6,7 +6,7 @@ const Links=()=> {
      return (
          <div>
              {
-                 linkArray.map(link => <a href="">{link}</a> )
+                 linkArray.map(link => <a href="" key={link} >{link}</a> )
              }
          </div>
      )
