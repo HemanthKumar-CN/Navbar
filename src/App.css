@@ -1,6 +1,38 @@
-.App {
-  text-align: center;
+*
+{
+  color: white;
 }
+
+.App {
+  /* text-align: center; */
+  display: flex;
+  border: 1px  red;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  background-color: #282c34;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  
+}
+
+
+.dis a
+{
+  text-decoration: none;
+  padding: 12%;
+}
+
+.button
+{
+  background-color: rgb(33, 173, 173);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 5px 8px;
+}
+
+
 
 .App-logo {
   height: 40vmin;
